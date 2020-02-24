@@ -3,17 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityStudy.Server", "IdentityStudy.Server\IdentityStudy.Server.csproj", "{1EDA7900-57C4-45B2-8F88-C8398B2AE1F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityStudy.Server", "IdentityStudy.Server\IdentityStudy.Server.csproj", "{1EDA7900-57C4-45B2-8F88-C8398B2AE1F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityStudy.Api", "IdentityStudy.Api\IdentityStudy.Api.csproj", "{84E10C1D-FF9D-4001-BDE9-8D1235DD7484}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityStudy.Api", "IdentityStudy.Api\IdentityStudy.Api.csproj", "{84E10C1D-FF9D-4001-BDE9-8D1235DD7484}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityStudy.ConsoleClient", "IdentityStudy.ConsoleClient\IdentityStudy.ConsoleClient.csproj", "{18C301AA-BD67-4557-B3A4-E834E09FDB7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityStudy.ConsoleClient", "IdentityStudy.ConsoleClient\IdentityStudy.ConsoleClient.csproj", "{18C301AA-BD67-4557-B3A4-E834E09FDB7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityStudy.PasswordClient", "IdentityStudy.PasswordClient\IdentityStudy.PasswordClient.csproj", "{3D13077C-58EF-4478-B24F-55B2F39431B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityStudy.PasswordClient", "IdentityStudy.PasswordClient\IdentityStudy.PasswordClient.csproj", "{3D13077C-58EF-4478-B24F-55B2F39431B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityStudy.UserAuthMvcClient", "IdentityStudy.UserAuthMvcClient\IdentityStudy.UserAuthMvcClient.csproj", "{C7074130-8559-44AF-BC08-941DFB11ECDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityStudy.UserAuthMvcClient", "IdentityStudy.UserAuthMvcClient\IdentityStudy.UserAuthMvcClient.csproj", "{C7074130-8559-44AF-BC08-941DFB11ECDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityStudy.UserClientAuthServer", "IdentityStudy.UserClientAuthServer\IdentityStudy.UserClientAuthServer.csproj", "{C2A4DF4E-3851-4377-8542-6732E67A3A58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityStudy.UserClientAuthServer", "IdentityStudy.UserClientAuthServer\IdentityStudy.UserClientAuthServer.csproj", "{C2A4DF4E-3851-4377-8542-6732E67A3A58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_CoreAndApiAccess", "03_CoreAndApiAccess", "{4491EB4E-8433-4584-9D8F-FC99D05E0287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "03_AspNetCoreAPiAccess\Server\Server.csproj", "{DFA251E2-F8A5-4A80-8042-4337D60599C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "03_AspNetCoreAPiAccess\Client\Client.csproj", "{EB5CF689-95F5-49F6-8E21-FABD1B61574C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "03_AspNetCoreAPiAccess\Api\Api.csproj", "{B7D26DB6-3E4C-4D2A-ABD3-84ADAE0BFF37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFcoreServer", "03_AspNetCoreAPiAccess\EFcoreServer\EFcoreServer.csproj", "{11E9D44B-5DEC-442D-A748-89D8C41CE286}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +55,31 @@ Global
 		{C2A4DF4E-3851-4377-8542-6732E67A3A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2A4DF4E-3851-4377-8542-6732E67A3A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2A4DF4E-3851-4377-8542-6732E67A3A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA251E2-F8A5-4A80-8042-4337D60599C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA251E2-F8A5-4A80-8042-4337D60599C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA251E2-F8A5-4A80-8042-4337D60599C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA251E2-F8A5-4A80-8042-4337D60599C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5CF689-95F5-49F6-8E21-FABD1B61574C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5CF689-95F5-49F6-8E21-FABD1B61574C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5CF689-95F5-49F6-8E21-FABD1B61574C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5CF689-95F5-49F6-8E21-FABD1B61574C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7D26DB6-3E4C-4D2A-ABD3-84ADAE0BFF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D26DB6-3E4C-4D2A-ABD3-84ADAE0BFF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D26DB6-3E4C-4D2A-ABD3-84ADAE0BFF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D26DB6-3E4C-4D2A-ABD3-84ADAE0BFF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E9D44B-5DEC-442D-A748-89D8C41CE286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E9D44B-5DEC-442D-A748-89D8C41CE286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E9D44B-5DEC-442D-A748-89D8C41CE286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E9D44B-5DEC-442D-A748-89D8C41CE286}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DFA251E2-F8A5-4A80-8042-4337D60599C9} = {4491EB4E-8433-4584-9D8F-FC99D05E0287}
+		{EB5CF689-95F5-49F6-8E21-FABD1B61574C} = {4491EB4E-8433-4584-9D8F-FC99D05E0287}
+		{B7D26DB6-3E4C-4D2A-ABD3-84ADAE0BFF37} = {4491EB4E-8433-4584-9D8F-FC99D05E0287}
+		{11E9D44B-5DEC-442D-A748-89D8C41CE286} = {4491EB4E-8433-4584-9D8F-FC99D05E0287}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE18B40D-B6F8-406D-932B-FFC9E1177766}
